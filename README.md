@@ -1,10 +1,14 @@
 Driver Drowsiness Detection System :
+
 This is a Python-based Driver Drowsiness Detection System designed to enhance road safety and prevent unnecesary accidents  by monitoring and detecting drowsiness in drivers. 
 The system utilizes computer vision and machine learning techniques to analyze eye blinks and other facial features to classify the driver's state as awake, drowsy, or asleep.
 
 Features:
+
 Real-Time Detection: The system processes video frames in real-time to assess the driver's level of alertness.
+
 Eye Blink Analysis: Uses eye aspect ratio (EAR) to detect eye blinks and identify signs of drowsiness.
+
 Alert System: Generates alerts (visual/audio) when drowsiness is detected to prevent accidents.
 
 Technologies Used:
