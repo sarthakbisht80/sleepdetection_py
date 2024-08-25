@@ -12,14 +12,23 @@ Eye Blink Analysis: Uses eye aspect ratio (EAR) to detect eye blinks and identif
 Alert System: Generates alerts (visual/audio) when drowsiness is detected to prevent accidents.
 
 Technologies Used:
+
 Python: The core programming language used for developing the system.
+
 OpenCV: For real-time video capture and image processing.
+
 Dlib: For facial landmark detection, particularly for locating the eyes.
+
 Scipy: Utilized for scientific and mathematical computations, including signal processing.
+
 Pygame: To create an interactive interface and generate alerts.
 
 Workking:
+
 Video Capture: The system captures real-time video using a webcam.
+
 Facial Landmark Detection: Dlib's pre-trained models are used to detect and extract facial landmarks, focusing on the eyes.
+
 Eye Blink Detection: The Eye Aspect Ratio (EAR) is computed to monitor blinking patterns. A consistent low EAR indicates drowsiness.
+
 Alert Mechanism: If drowsiness is detected based on blink patterns, the system triggers an alert to wake the driver.
